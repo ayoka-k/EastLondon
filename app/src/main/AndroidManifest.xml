@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.alena.eastlondon">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <!-- MainActivity -->
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- East End Riverside Activity -->
+        <activity android:name=".EastEndRiversideActivity"></activity>
+        <!-- The East End Activity -->
+        <activity android:name=".TheEastEndActivity"></activity>
+        <!-- The Isle of Dogs Activity -->
+        <activity android:name=".TheIsleOfDogsActivity"></activity>
+        <!-- Tower Activity -->
+        <activity android:name=".TowerActivity"></activity>
+    </application>
+
+</manifest>
