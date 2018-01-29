@@ -1,9 +1,29 @@
 <resources>
-    <!--MainActivity -->
+    <!--activity_main -->
     <string name="app_name">East London</string>
     <string name="sub_title">Tour Guide</string>
     <string name="option_tower">Tower</string>
     <string name="option_east_end_riverside">East End Riverside</string>
     <string name="option_the_isle_of_dogs">The Isle of Dogs</string>
     <string name="option_the_east_end">The East End</string>
+
+    <!-- activity_tower -->
+    <string name="tower_opt1">Tower of London</string>
+    <string name="tower_opt2">Tower Bridge</string>
+    <string name="tower_opt3">Wilton\'s Music Hall</string>
+
+    <!-- activity_east_end_riverside -->
+    <string name="east_end_riverside_opt1">St Paul\'s Shadwell</string>
+    <string name="east_end_riverside_opt2">King Edward Memorial Park</string>
+    <string name="east_end_riverside_opt3">Limehouse</string>
+
+    <!-- activity_the_isle_of_dogs -->
+    <string name="the_isle_of_dogs_opt1">Canary Wharf</string>
+    <string name="the_isle_of_dogs_opt2">Island Gardens</string>
+    <string name="the_isle_of_dogs_opt3">Trinity Buoy Wharf</string>
+
+    <!-- activity_the_east_end -->
+    <string name="the_east_end_opt1">Whitechapel Bell Foundry</string>
+    <string name="the_east_end_opt2">Christ Church</string>
+    <string name="the_east_end_opt3">Stepney</string>
 </resources>
