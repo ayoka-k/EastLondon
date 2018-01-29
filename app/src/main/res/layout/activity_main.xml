@@ -22,12 +22,14 @@
         android:orientation="horizontal">
 
         <TextView
+            android:id="@+id/tower_category"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/option_tower" />
 
         <TextView
+            android:id="@+id/east_end_riverside_category"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -41,12 +43,14 @@
         android:orientation="horizontal">
 
         <TextView
+            android:id="@+id/the_isle_of_dogs_category"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/option_the_isle_of_dogs" />
 
         <TextView
+            android:id="@+id/the_east_end_category"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
