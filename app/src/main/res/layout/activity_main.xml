@@ -6,11 +6,6 @@
     android:orientation="vertical"
     tools:context="com.example.alena.eastlondon.MainActivity">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        style="@style/AppTitle"
-        android:text="@string/app_name" />
 
     <TextView
         android:layout_width="match_parent"
@@ -24,13 +19,16 @@
         <TextView
             android:id="@+id/tower_category"
             style="@style/CategoryHomePage"
+            android:background="@drawable/tower_image"
+            android:textColor="@android:color/white"
             android:text="@string/option_tower" />
 
         <TextView
-            android:id="@+id/east_end_riverside_category"
-
+            android:id="@+id/the_east_end_category"
             style="@style/CategoryHomePage"
-            android:text="@string/option_east_end_riverside" />
+            android:background="@drawable/the_east_end_imagejpg"
+            android:textColor="@android:color/white"
+            android:text="@string/option_the_east_end" />
 
     </LinearLayout>
 
@@ -38,14 +36,18 @@
         style="@style/CategoryContainer">
 
         <TextView
-            android:id="@+id/the_isle_of_dogs_category"
+            android:id="@+id/east_end_riverside_category"
             style="@style/CategoryHomePage"
-            android:text="@string/option_the_isle_of_dogs" />
+            android:background="@drawable/east_end_riverside_image"
+            android:textColor="@android:color/black"
+            android:text="@string/option_east_end_riverside" />
 
         <TextView
-            android:id="@+id/the_east_end_category"
+            android:id="@+id/the_isle_of_dogs_category"
             style="@style/CategoryHomePage"
-            android:text="@string/option_the_east_end" />
+            android:background="@drawable/the_isle_of_dogs_image"
+            android:textColor="@android:color/black"
+            android:text="@string/option_the_isle_of_dogs" />
 
     </LinearLayout>
 

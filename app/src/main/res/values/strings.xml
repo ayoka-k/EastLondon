@@ -1,7 +1,7 @@
 <resources>
     <!--activity_main -->
     <string name="app_name">East London</string>
-    <string name="sub_title">Tour Guide</string>
+    <string name="sub_title">Your Tour Guide to East London</string>
     <string name="option_tower">Tower</string>
     <string name="option_east_end_riverside">East End Riverside</string>
     <string name="option_the_isle_of_dogs">The Isle of Dogs</string>
