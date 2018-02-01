@@ -33,6 +33,8 @@
         <activity
             android:name=".TowerActivity"
             android:label="@string/option_tower" />
+
+        <activity android:name=".SightActivity" />
     </application>
 
 </manifest>
