@@ -26,4 +26,7 @@
     <string name="the_east_end_opt1">Whitechapel Bell Foundry</string>
     <string name="the_east_end_opt2">Christ Church</string>
     <string name="the_east_end_opt3">Stepney</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

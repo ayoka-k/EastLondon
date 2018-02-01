@@ -5,16 +5,19 @@
     android:orientation="vertical">
 
     <TextView
+        android:id="@+id/tower_of_london_text_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/tower_opt1" />
 
     <TextView
+        android:id="@+id/tower_bridge_text_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/tower_opt2" />
 
     <TextView
+        android:id="@+id/wiltions_music_hall_text_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/tower_opt3" />
