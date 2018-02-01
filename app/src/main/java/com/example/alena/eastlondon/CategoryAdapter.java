@@ -29,9 +29,9 @@ public class CategoryAdapter extends FragmentPagerAdapter {
     @Override
     public Fragment getItem(int position) {
         if (position == 0) {
-            return DescriptionFragment;
+            return new DescriptionFragment();
         } else {
-            return DetailsFragment;
+            return new DetailsFragment();
         }
     }
 
