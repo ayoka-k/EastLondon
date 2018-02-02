@@ -17,16 +17,26 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <!-- East End Riverside Activity -->
-        <!-- The East End Activity -->
-        <!-- The Isle of Dogs Activity -->
+
+        <!-- The Isle of Dogs Activity. A child of the main activity -->
         <activity
             android:name=".TheIsleOfDogsActivity"
-            android:label="@string/option_the_isle_of_dogs" />
-        <!-- Tower Activity -->
+            android:label="@string/option_the_isle_of_dogs"
+            android:parentActivityName=".MainActivity" />
+        <!-- The meta-data element is needed for versions lower than 4.1 -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+
+        <!-- Tower Activity. A child of the main activity -->
         <activity
             android:name=".TowerActivity"
-            android:label="@string/option_tower" />
+            android:label="@string/option_tower"
+            android:parentActivityName=".MainActivity" />
+        <!-- The meta-data element is needed for versions lower than 4.1 -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
 
         <activity android:name=".SightActivity" />
     </application>
