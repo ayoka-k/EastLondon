@@ -1,54 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context="com.example.alena.eastlondon.MainActivity">
+    android:layout_height="wrap_content">
 
-
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        style="@style/AppSubtitle"
-        android:text="@string/sub_title" />
-
-    <LinearLayout
-        style="@style/CategoryContainer">
+        android:orientation="vertical"
+        tools:context="com.example.alena.eastlondon.MainActivity">
 
         <TextView
-            android:id="@+id/tower_category"
-            style="@style/CategoryHomePage"
-            android:background="@drawable/tower_image"
-            android:textColor="@android:color/white"
-            android:text="@string/option_tower" />
+            style="@style/AppSubtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sub_title" />
 
-        <TextView
-            android:id="@+id/the_east_end_category"
-            style="@style/CategoryHomePage"
-            android:background="@drawable/the_east_end_imagejpg"
-            android:textColor="@android:color/white"
-            android:text="@string/option_the_east_end" />
+        <LinearLayout
+            android:id="@+id/tower_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:src="@drawable/main_page_tower" />
+
+            <TextView
+                android:id="@+id/tower_category"
+                style="@style/CategoryHomePage"
+                android:text="@string/option_tower" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/the_isle_of_dogs_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:src="@drawable/main_page_isle_of_dogs" />
+
+            <TextView
+                android:id="@+id/the_isle_of_dogs_category"
+                style="@style/CategoryHomePage"
+                android:text="@string/option_the_isle_of_dogs" />
+        </LinearLayout>
 
     </LinearLayout>
-
-    <LinearLayout
-        style="@style/CategoryContainer">
-
-        <TextView
-            android:id="@+id/east_end_riverside_category"
-            style="@style/CategoryHomePage"
-            android:background="@drawable/east_end_riverside_image"
-            android:textColor="@android:color/black"
-            android:text="@string/option_east_end_riverside" />
-
-        <TextView
-            android:id="@+id/the_isle_of_dogs_category"
-            style="@style/CategoryHomePage"
-            android:background="@drawable/the_isle_of_dogs_image"
-            android:textColor="@android:color/black"
-            android:text="@string/option_the_isle_of_dogs" />
-
-    </LinearLayout>
-
-</LinearLayout>
+</ScrollView>

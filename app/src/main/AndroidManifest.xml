@@ -18,13 +18,7 @@
             </intent-filter>
         </activity>
         <!-- East End Riverside Activity -->
-        <activity
-            android:name=".EastEndRiversideActivity"
-            android:label="@string/option_east_end_riverside" />
         <!-- The East End Activity -->
-        <activity
-            android:name=".TheEastEndActivity"
-            android:label="@string/option_the_east_end" />
         <!-- The Isle of Dogs Activity -->
         <activity
             android:name=".TheIsleOfDogsActivity"

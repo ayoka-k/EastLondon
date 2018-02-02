@@ -8,15 +8,6 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <!-- Style for the title of the app on the home page -->
-    <style name="AppTitle">
-        <item name="android:textAlignment">center</item>
-        <item name="android:padding">16dp</item>
-        <item name="android:textAllCaps">true</item>
-        <item name="android:textSize">24sp</item>
-        <item name="android:textColor">@color/colorPrimaryText</item>
-    </style>
-
     <!-- Style for the subtitle of the app on the home page -->
     <style name="AppSubtitle">
         <item name="android:textAlignment">center</item>
@@ -27,20 +18,22 @@
 
     <!-- Style for the categories on the home page -->
     <style name="CategoryHomePage">
-        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_margin">1dp</item>
-        <item name="android:padding">16dp</item>
+        <item name="android:padding">8dp</item>
         <item name="android:textSize">18sp</item>
-        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/colorPrimaryText</item>
     </style>
 
-    <!-- Style fot category container on the home page -->
-    <style name="CategoryContainer">
-        <item name="android:layout_height">0dp</item>
+    <!-- Style for the sights options -->
+    <style name="Sight">
         <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_weight">1</item>
-        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textColor">#FFFFFF</item>
     </style>
 
     <!-- Style for a tab that displays a category name -->
