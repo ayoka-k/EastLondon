@@ -11,7 +11,7 @@ public class SightActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        // Set the content of the activity to use the activity_main.xml layout file
+        // Set the content of the activity to use the sight_info.xml layout file
         setContentView(R.layout.sight_info);
 
         // Find the view pager that will allow the user to swipe between fragments
@@ -23,7 +23,7 @@ public class SightActivity extends AppCompatActivity {
         // Set the adapter onto the view pager
         viewPager.setAdapter(adapter);
 
-        // Give the TabLayout the ViewPager
+        // Give the TabLayout to the ViewPager
         TabLayout tabLayout = findViewById(R.id.sliding_tabs);
 
         // Connect the tab layout with the view pager. This will
